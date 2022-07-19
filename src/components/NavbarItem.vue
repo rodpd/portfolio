@@ -1,5 +1,5 @@
 <template>
-    <a :href="`#${reference}`" class="p-3 mt-2 text-white hover:text-babyblue">{{title}}</a>
+    <a :href="`#${reference}`" class="p-3 text-slate-200 hover:text-teal-300">{{title}}</a>
 </template>
 
 

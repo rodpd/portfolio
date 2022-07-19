@@ -1,8 +1,8 @@
 <template>
-    <div class="grid grid-cols-6 mt-8">
-        <GithubIcon />
-        <LinkedinIcon />
-        <ResumeIcon />
+    <div class="flex gap-6 mt-6 sm:mt-12">
+        <GithubIcon :color="`${color}`" />
+        <LinkedinIcon :color="`${color}`" />
+        <ResumeIcon :color="`${color}`" />
     </div>
 </template>
 
@@ -19,8 +19,10 @@ export default {
     GithubIcon,
     LinkedinIcon,
     ResumeIcon
+    },
+    props: ['color']
 }
-}
+
 </script>
 
 

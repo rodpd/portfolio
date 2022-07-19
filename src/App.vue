@@ -28,6 +28,9 @@ export default {
 
 <style>
 #app {
-  font-family: Helvetica, sans-serif;
+  font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+}
+body {
+  background-color: #000C66;
 }
 </style>

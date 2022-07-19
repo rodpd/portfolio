@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-wrap mt-6">
+    <div class="flex flex-wrap">
         <SkillItem v-for="skill in skills" :key="skill.id" :text="skill.text" />
     </div>
 </template>

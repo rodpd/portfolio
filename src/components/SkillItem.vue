@@ -1,5 +1,5 @@
 <template>
-    <span class="p-2 mt-3 mr-3 text-white duration-300 bg-black rounded-md hover:bg-normalblue hover:cursor-default">{{text}}</span>
+    <span class="p-2 mt-3 mr-3 duration-300 bg-black rounded-md text-slate-200 hover:bg-blue-600 hover:cursor-default">{{text}}</span>
 </template>
 
 

@@ -1,6 +1,6 @@
 <template>
-    <a href="https://www.linkedin.com/in/rodrigopad/">
-        <svg class="duration-300 hover:scale-125 fill-white hover:fill-babyblue" width="48px" height="48px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    <a href="https://www.linkedin.com/in/rodrigopad/" target="_blank">
+        <svg :class="`duration-300 hover:scale-125 fill-${color} hover:fill-blue-600`" width="48px" height="48px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 310 310" style="enable-background:new 0 0 310 310;" xml:space="preserve">
 <g id="XMLID_801_">
 	<path id="XMLID_802_" d="M72.16,99.73H9.927c-2.762,0-5,2.239-5,5v199.928c0,2.762,2.238,5,5,5H72.16c2.762,0,5-2.238,5-5V104.73
@@ -19,7 +19,8 @@
 
 <script>
 export default {
-    name: 'LinkedinIcon'
+    name: 'LinkedinIcon',
+	props: ['color']
 }
 </script>
 

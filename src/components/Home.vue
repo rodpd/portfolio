@@ -1,16 +1,21 @@
 <template>
 
 
-    <div id='home' class="grid content-center h-[90vh] grid-cols-2 repeat">
-        <div class="p-10 ml-44">
-            <h1 class="text-white text-7xl">Rodrigo</h1>
-            <Links />
+    <div id='home' class="bg-slate-300 lg:grid lg:content-center h-min lg:h-[90vh] lg:grid-cols-2 repeat">
+        <div class="p-10 pb-0 sm:pb-10 sm:ml-24">
+            <h1 class="text-6xl text-slate-900">Olá, <br>
+            eu sou 
+            <span class="font-bold text-blue-900 text-7xl">Rodrigo</span></h1>
+            <Bar color="blue-900" />
+            <Links color="slate-800"/>
         </div>
-        <div class="p-10 mr-32">
-            <p class="mt-4 text-3xl text-white">Front End Dev</p>
-            <p class="mt-8 text-white">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. At tenetur hic nam eius qui porro id dignissimos rem, perferendis saepe? Sequi laudantium voluptates non nemo quidem libero, accusantium provident quaerat.
+        <div class="p-8 sm:pt-0 sm:px-16 lg:p-10 lg:mr-20">
+            <p class="text-5xl font-semibold text-blue-900 lg:mt-4">Front End Web Developer</p>
+            <p class="mt-8 text-lg text-slate-900">
+                Oi! Meu nome é Rodrigo Padilha, e sou um desenvolvedor web. Pretendo futuramente me tornar um desenvolvedor full stack, 
+                mas no momento meus estudos estão focados no front-end. Estou entusiasmado para utilizar diferentes tecnologias e melhorar minhas habilidades em um ambiente profissional.
             </p>
+            <h3 class="mt-3 text-lg font-semibold text-blue-900">Skills</h3>
             <Skills :skills="this.skills" />
         </div>
     </div>
@@ -23,13 +28,15 @@
 
 import Skills from './Skills.vue'
 import Links from './Links.vue'
+import Bar from './Bar.vue'
 
 export default {
     name: 'Home',
     components: {
-        Links,
-        Skills
-    },
+    Links,
+    Skills,
+    Bar
+},
     data () {
         return {
             skills: [
@@ -40,9 +47,7 @@ export default {
                 {id: 5, text: 'Bootstrap'},
                 {id: 6, text: 'Tailwind'},
                 {id: 7, text: 'MySQL'},
-                {id: 8, text: 'Java'},
-                {id: 9, text: 'Python'},
-                {id: 10, text: 'Git'},
+                {id: 8, text: 'Git'},
             ]
         }
     }
@@ -52,8 +57,4 @@ export default {
 
 
 <style>
-#home {
-    background-color: #050a30;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%237ec8e3' fill-opacity='0.11'%3E%3Cpath d='M0 38.59l2.83-2.83 1.41 1.41L1.41 40H0v-1.41zM0 1.4l2.83 2.83 1.41-1.41L1.41 0H0v1.41zM38.59 40l-2.83-2.83 1.41-1.41L40 38.59V40h-1.41zM40 1.41l-2.83 2.83-1.41-1.41L38.59 0H40v1.41zM20 18.6l2.83-2.83 1.41 1.41L21.41 20l2.83 2.83-1.41 1.41L20 21.41l-2.83 2.83-1.41-1.41L18.59 20l-2.83-2.83 1.41-1.41L20 18.59z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-}
 </style>
