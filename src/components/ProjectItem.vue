@@ -9,6 +9,12 @@
             <div class="mt-4">
                 <Skills :skills="this.skills" />
             </div>
+            <div class="flex gap-6 mt-6">
+                <GithubIcon color="slate-200" size="40" link="https://www.github.com/rodpd/portal-de-filmes" />
+                <a href="https://diw.rodpd.repl.co" target="_blank">
+                    <WebIcon />
+                </a>
+            </div>
         </div>
     </div>
 </template>
@@ -17,13 +23,17 @@
 <script>
 
 import Skills from './Skills.vue'
+import WebIcon from './WebIcon.vue'
+import GithubIcon from './GithubIcon.vue'
 
 export default {
     name: 'ProjectItem',
     components: {
-        Skills
-    },
-    props: ['title', 'description', 'img', 'skills']
+    Skills,
+    WebIcon,
+    GithubIcon
+},
+    props: ['title', 'description', 'img', 'skills', 'linkGithub', 'linkProject']
 }
 </script>
 

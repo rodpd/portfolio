@@ -1,6 +1,6 @@
 <template>
     <div class="flex gap-6 mt-6 sm:mt-12">
-        <GithubIcon :color="`${color}`" />
+        <GithubIcon :color="`${color}`" size="48" link="https://github.com/rodpd" />
         <LinkedinIcon :color="`${color}`" />
         <ResumeIcon :color="`${color}`" />
     </div>

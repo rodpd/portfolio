@@ -1,5 +1,5 @@
 <template>
-    <a href="https://docs.google.com/document/d/1_aKwPiqlRd9Oiscm7EtVHnefhxXdVRiiTNQdEaOPzUk/edit" target="_blank">
+    <a href="https://drive.google.com/file/d/1Xw_mbzqNZlEKw-2-kzWL4kfIiIbhbM_2/view?usp=sharing" target="_blank">
         <svg :class="`duration-300 hover:scale-125 fill-${color} hover:fill-blue-600`" width="48px" height="48px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 488.9 488.9" style="enable-background:new 0 0 488.9 488.9;" xml:space="preserve">
 <g>

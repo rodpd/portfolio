@@ -12,12 +12,14 @@
 <script>
 import ProjectItem from './ProjectItem.vue';
 import Bar from './Bar.vue';
+import GithubIcon from './GithubIcon.vue';
 
 export default {
     name: 'Projects',
     components: {
     ProjectItem,
-    Bar
+    Bar,
+    GithubIcon
 },
     data () {
         return {
