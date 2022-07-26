@@ -32,7 +32,7 @@ export default {
         return {
             projects: [
 				{ 
-					id: 1, title: "World Info - Em construção", img: "world.png",
+					id: 1, title: "World Countries - Em construção", img: "world.png",
 					description: ` Site desenvolvido com Vue.js e TailwindCSS que exibe diversas informações sobre os países em cards. O projeto usa a 
 					API Rest Countries (https://restcountries.com/) para obter os dados exibidos na interface. Ainda em construção,
 					serão adicionadas outras funcionalidades como busca, filtro por região e dark mode.
@@ -45,8 +45,8 @@ export default {
 						{id: 5, text: 'TailwindCSS'},
 						{id: 6, text: 'Fetch API'},
                 	],
-					githubUrl: "https://github.com/rodpd/world-info",
-					demoUrl: "https://diw.rodpd.repl.co"
+					githubUrl: "https://github.com/rodpd/world-countries",
+					demoUrl: "https://rodpd.github.io/world-countries"
 				},
                 { 
 					id: 2, title: "Portal de Filmes", img: "movies.png",
@@ -62,7 +62,7 @@ export default {
 						{id: 6, text: 'REST API'}
                 	],
 					githubUrl: "https://github.com/rodpd/portal-de-filmes",
-					demoUrl: "https://diw.rodpd.repl.co"
+					demoUrl: "https://rodpd.github.io/portal-de-filmes"
 				}
 			]
         }

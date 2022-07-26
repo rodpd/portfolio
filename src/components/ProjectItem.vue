@@ -1,8 +1,8 @@
 <template>
     <div class="mb-10 lg:grid lg:grid-cols-2">
         <div class="my-auto">
-			<a :href="`${demoUrl}`">
-				<img :src="require(`../assets/${img}`)" alt="" class="w-10/12 mx-auto duration-300 sm:w-3/4 hover:scale-110">
+			<a :href="`${demoUrl}`" class="block w-10/12 mx-auto sm:w-3/4">
+				<img :src="require(`../assets/${img}`)" alt="" class="duration-300 hover:scale-110">
 			</a>
         </div>
         <div class="m-10 lg:ml-10 lg:mr-48">
