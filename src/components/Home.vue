@@ -1,11 +1,11 @@
 <template>
 
-    <div id='home' class="bg-slate-200 lg:grid lg:content-center h-min lg:h-[90vh] lg:grid-cols-2 repeat">
+    <section id='home' class="bg-slate-200 lg:grid lg:content-center h-min lg:h-[90vh] lg:grid-cols-2 repeat">
         <div class="p-10 pb-0 sm:pb-10 sm:ml-24">
             <h1 class="text-6xl text-slate-900">Olá, <br>
             eu sou 
             <span class="font-bold text-blue-900 text-7xl">Rodrigo</span></h1>
-            <Bar color="blue-900" /> 
+            <Bar color="blue-900" />
             <Links color="slate-800"/>
         </div>
         <div class="p-8 sm:pt-0 sm:px-16 lg:p-10 lg:mr-20">
@@ -18,7 +18,7 @@
             <h3 class="mt-3 text-lg font-semibold text-blue-900">Skills</h3>
             <Skills :skills="this.skills" />
         </div>
-    </div>
+    </section>
 
 </template>
 

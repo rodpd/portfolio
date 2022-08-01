@@ -1,5 +1,5 @@
 <template>
-    <div class="grid sm:grid-cols-3 bg-navyblue">
+    <footer class="grid sm:grid-cols-3 bg-navyblue">
         <div class="grid content-center pb-10 mx-auto">
             <Links color="slate-200" />
         </div>
@@ -26,7 +26,7 @@
                 Rodrigo.pad@outlook.com.br
             </p>
         </div>
-    </div>
+    </footer>
 </template>
 
 

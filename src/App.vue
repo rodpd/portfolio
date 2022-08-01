@@ -1,30 +1,27 @@
 <template>
-  <Navbar />
-  <Home />
-  <Projects />
-  <ContactForm />
-  <Footer />
-
+	<Navbar />
+	<Main />
+	<Footer />
 </template>
+
+
 
 <script>
 import Navbar from './components/Navbar.vue'
-import Home from './components/Home.vue'
-import Projects from './components/Projects.vue'
-import ContactForm from './components/ContactForm.vue'
+import Main from './components/Main.vue'
 import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
   components: {
     Navbar,
-    Home,
-    Projects,
-    ContactForm,
+	Main,
     Footer
   }
 }
 </script>
+
+
 
 <style>
 #app {
