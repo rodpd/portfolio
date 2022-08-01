@@ -1,6 +1,6 @@
 <template>
     <div id="projects" class="grid lg:pb-12 bg-darkblue h-min">
-        <div class="mx-auto mt-10 mb-16">
+        <div class="mx-auto mt-10 mb-2">
             <h1 class="text-5xl text-slate-200">Projetos</h1>
             <Bar color="slate-200" />
         </div>
@@ -35,7 +35,7 @@ export default {
 					id: 1, title: "World Countries - Em construção", img: "world.png",
 					description: ` Site desenvolvido com Vue.js e TailwindCSS que exibe diversas informações sobre os países em cards. O projeto usa a 
 					API Rest Countries (https://restcountries.com/) para obter os dados exibidos na interface. Ainda em construção,
-					serão adicionadas outras funcionalidades como busca, filtro por região e dark mode.
+					serão adicionadas outras funcionalidades como filtro por região e dark mode.
 					`,
 					skills: [
 						{id: 1, text: 'HTML'},

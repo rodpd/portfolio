@@ -1,6 +1,6 @@
 <template>
 
-    <div id='home' class="bg-slate-300 lg:grid lg:content-center h-min lg:h-[90vh] lg:grid-cols-2 repeat">
+    <div id='home' class="bg-slate-200 lg:grid lg:content-center h-min lg:h-[90vh] lg:grid-cols-2 repeat">
         <div class="p-10 pb-0 sm:pb-10 sm:ml-24">
             <h1 class="text-6xl text-slate-900">Olá, <br>
             eu sou 
@@ -12,7 +12,8 @@
             <p class="text-5xl font-semibold text-blue-900 lg:mt-4">Front End Web Developer</p>
             <p class="mt-8 text-lg text-slate-900">
                 Oi! Meu nome é Rodrigo, e sou um desenvolvedor web. Pretendo futuramente me tornar um desenvolvedor full stack, 
-                mas no momento meus estudos estão focados no front-end com Vue.js. Estou entusiasmado para utilizar diferentes tecnologias e melhorar minhas habilidades em um ambiente profissional.
+                mas no momento meus estudos estão focados em aprender mais sobre o front-end no geral e melhorar a qualidade do meu código. 
+				Estou disposto a aprender outros frameworks, mas atualmente estou praticando com Vue.js e minha preferência é trabalhar com ele.
             </p>
             <h3 class="mt-3 text-lg font-semibold text-blue-900">Skills</h3>
             <Skills :skills="this.skills" />
