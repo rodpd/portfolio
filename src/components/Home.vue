@@ -13,7 +13,7 @@
             <p class="mt-8 text-lg text-slate-900">
                 Oi! Meu nome é Rodrigo, e sou um desenvolvedor web. Pretendo futuramente me tornar um desenvolvedor full stack, 
                 mas no momento meus estudos estão focados em aprender mais sobre o front-end no geral e melhorar a qualidade do meu código. 
-				Estou disposto a aprender outros frameworks, mas atualmente estou praticando com Vue.js e minha preferência é trabalhar com ele.
+				Atualmente estou praticando e tenho preferência por usar Vue.js, mas estou disposto a aprender outros frameworks.
             </p>
             <h3 class="mt-3 text-lg font-semibold text-blue-900">Skills</h3>
             <Skills :skills="this.skills" />
