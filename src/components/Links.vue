@@ -9,9 +9,9 @@
 
 <script>
 
-import GithubIcon from './GithubIcon.vue'
-import LinkedinIcon from './LinkedinIcon.vue'
-import ResumeIcon from './ResumeIcon.vue'
+import GithubIcon from './Icons/GithubIcon.vue'
+import LinkedinIcon from './Icons/LinkedinIcon.vue'
+import ResumeIcon from './Icons/ResumeIcon.vue'
 
 export default {
     name: 'Links',

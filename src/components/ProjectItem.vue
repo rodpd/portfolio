@@ -25,8 +25,8 @@
 <script>
 
 import Skills from './Skills.vue'
-import WebIcon from './WebIcon.vue'
-import GithubIcon from './GithubIcon.vue'
+import WebIcon from './Icons/WebIcon.vue'
+import GithubIcon from './Icons/GithubIcon.vue'
 
 export default {
     name: 'ProjectItem',

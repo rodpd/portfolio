@@ -48,6 +48,7 @@ export default {
                 {id: 6, text: 'Tailwind'},
                 {id: 7, text: 'MySQL'},
                 {id: 8, text: 'Git'},
+				{id: 9, text: 'React'},
             ]
         }
     }
