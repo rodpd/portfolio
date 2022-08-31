@@ -11,8 +11,8 @@
         <div class="p-8 sm:pt-0 sm:px-16 lg:p-10 lg:mr-20">
             <p class="text-5xl font-semibold text-blue-900 lg:mt-4">Front End Web Developer</p>
             <p class="mt-8 text-lg text-slate-900">
-                Oi! Meu nome é Rodrigo, e sou um desenvolvedor web. Pretendo futuramente me tornar um desenvolvedor full stack, 
-                mas no momento meus estudos estão focados em aprender mais sobre o front-end no geral e melhorar a qualidade do meu código. 
+                Desenvolvedor Web Front End. Pretendo futuramente me tornar um desenvolvedor full stack, 
+                mas no momento meus estudos estão focados em aprender mais sobre o front end no geral e melhorar a qualidade do meu código. 
 				Atualmente estou praticando e tenho preferência por Vue.js, mas estou disposto a utilizar outros frameworks.
             </p>
             <h3 class="mt-3 text-lg font-semibold text-blue-900">Skills</h3>

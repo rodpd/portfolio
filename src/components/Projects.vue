@@ -51,7 +51,7 @@ export default {
 					demoUrl: "https://rodpd.github.io/world-countries"
 				},
                 { 
-					id: 2, title: "Calculadora - Testes em desenvolvimento", img: "calculator.png",
+					id: 2, title: "Calculadora", img: "calculator.png",
 					description: `Calculadora simples com 3 temas diferentes. Para identificar erros e bugs  estão sendo 
 					desenvolvidos testes unitarios com Jest e End to End com Cypress.
 					`,
