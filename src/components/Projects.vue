@@ -52,8 +52,7 @@ export default {
 				},
                 { 
 					id: 2, title: "Calculadora", img: "calculator.png",
-					description: `Calculadora simples com 3 temas diferentes. Para identificar erros e bugs  estão sendo 
-					desenvolvidos testes unitarios com Jest e End to End com Cypress.
+					description: `Calculadora simples com 3 temas diferentes.
 					`,
 					skills: [
 						{id: 1, text: 'HTML'},
@@ -61,17 +60,16 @@ export default {
 						{id: 3, text: 'JavaScript'},
 						{id: 4, text: 'Tailwind'},
 						{id: 5, text: 'Vue.js'},
-						{id: 5, text: 'Composition API'},
-						{id: 6, text: 'Pinia'},
-						{id: 7, text: 'Jest'},
-						{id: 8, text: 'Cypress'}
+						{id: 5, text: 'Composition API'}
                 	],
 					githubUrl: "https://github.com/rodpd/calculator-app",
 					demoUrl: "https://rodpd.github.io/calculator-app"
 				},
 				{ 
 					id: 3, title: "Portal de Filmes", img: "movies.png",
-					description: `Portal que exibe informações sobre filmes e séries, obtidas utilizando Fetch API para consumir 
+					description: `Primeiro projeto, feito como trabalho de uma disciplina da faculdade, utilizando HTML, CSS e 
+					JavaScript puro, sem o uso de frameworks. 
+					O Portal mostra informações sobre filmes e séries, obtidas utilizando Fetch API para consumir 
 					a API do The Movie Database (https://developers.themoviedb.org/)
 					`,
 					skills: [
