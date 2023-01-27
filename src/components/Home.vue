@@ -13,6 +13,7 @@
             <p class="mt-8 text-lg text-slate-900">
 				Atualmente focado no desenvolvimento web, tenho conhecimento em diversas linguagens de programação e 
 				facilidade de aprendizagem em assuntos relacionados à tecnologia devido à minha vivência com a área durante a faculdade.
+				<br>
 				No front-end estou praticando e tenho preferência por Vue.js, mas também tenho conhecimentos básicos em React e 
 				estou disposto a utilizar outros frameworks.
             </p>
